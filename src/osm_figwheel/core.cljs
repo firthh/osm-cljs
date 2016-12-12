@@ -1,7 +1,6 @@
 (ns osm-figwheel.core
   (:require [quil.core :as q :include-macros true]
-            [quil.middleware :as m]
-            [foo.core :include-macros true :refer [slurp]]))
+            [quil.middleware :as m]))
 
 (enable-console-print!)
 
